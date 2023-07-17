@@ -24,13 +24,13 @@ BODY: {
 
 ######  View list
 Method: GET \
-URL: `http://localhost:8000/auth/list` 
+URL: `http://localhost:8000/auth/list`  \
 Must be: add a token in the header with the key x-access-token
 
 
 ######  Change boss
 Method: POST \
-URL: `http://localhost:8000/auth/changeBoss` 
+URL: `http://localhost:8000/auth/changeBoss`  \
 BODY: 
 	{	
 	"userId": "64b3bab43502ae5b91b9a4d1",
