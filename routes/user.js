@@ -7,11 +7,6 @@ const router = express.Router();
 router.post("/register", register);
 router.post("/login", login);
 router.get("/list", verifyToken, list);
-router.get("/changeBoss", verifyToken, changeBoss);
-
-router.post("/welcome", verifyToken, (req, res) => {
-    console.log(req.user);
-    res.status(200).send("Welcome 🙌 ");
-});
+router.post("/changeBoss", verifyToken, changeBoss);
 
 export default router;
