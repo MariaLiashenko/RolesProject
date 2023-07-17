@@ -1,6 +1,6 @@
 # RolesProject
 ### Contribution Guidelines
-The project involved building a user management system with three roles: administrator, boss, and user. To organize the users, a hierarchical tree structure was implemented, where each user is represented as a node in the tree. 
+The project involved building a user management system with three roles: administrator, boss, and user. To organize the users, a hierarchical tree structure was implemented, where each user is represented as a node in the tree. Upon starting the project, the initial tree structure is created and saved in a file named "tree.json". This file serves as a persistent storage for the user tree, allowing the system to retain the hierarchy even after server restarts or shutdowns.
 ### How to start
 - npm install 
 - npm start 
